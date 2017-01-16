@@ -1,2 +1,2 @@
 # article_token
-[a valid link](../file.md)
+[an invalid link](../invalid_file.md)
