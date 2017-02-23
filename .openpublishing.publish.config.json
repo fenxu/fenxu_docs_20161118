@@ -18,6 +18,15 @@
       "template_folder": "_themes"
     }
   ],
+  "branch_target_mapping": {
+		"live": ["Publish", "PDF"],
+		"master": ["Publish", "PDF"]
+  },
+  "Targets": {
+		"Pdf": {
+			"template_folder": "_themes.OPS"
+		}
+	},
   "notification_subscribers": [],
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
@@ -29,7 +38,12 @@
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
       "branch_mapping": {}
-    }
+    },
+    {
+		  "path_to_root": "_themes.OPS",
+		  "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
+		  "branch": "master"
+	  }
   ],
   "need_generate_pdf_url_template": false
 }
