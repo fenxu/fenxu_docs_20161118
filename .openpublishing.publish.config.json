@@ -5,7 +5,6 @@
       "build_source_folder": "fenxu_docs_20161118",
       "build_output_subfolder": "fenxu_docs_20161118",
       "locale": "en-us",
-      "version": 0,
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -18,7 +17,6 @@
   ],
   "notification_subscribers": [],
   "branches_to_filter": [],
-  "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
   "git_repository_url_open_to_public_contributors": "https://github.com/fenxu/fenxu_docs_20161118",
   "dependent_repositories": [
