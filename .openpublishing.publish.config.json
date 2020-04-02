@@ -19,8 +19,7 @@
     }
   ],
   "branch_target_mapping": {
-		"live": ["Publish", "PDF"],
-		"master": ["Publish", "PDF"]
+		"live": ["Publish", "PDF"]
   },
   "Targets": {
 		"Pdf": {
